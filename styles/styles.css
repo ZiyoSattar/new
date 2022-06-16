@@ -1,0 +1,304 @@
+/* playfair-display-regular - latin */
+@font-face {
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  src: local(''),
+       url('../fonts/playfair-display-v29-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+       url('../fonts/playfair-display-v29-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+*{
+  box-sizing: border-box;
+}
+img{
+  vertical-align: middle;
+}
+body{
+  margin: 0px;
+}
+.container{
+  width: 1260px;
+  padding: 0px 30px;
+  margin: 0px auto;
+}
+
+.second{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+  /* margin-bottom: 50px; */
+}
+
+
+/* .smth{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+
+
+
+
+.nav_ul{
+  display: flex;
+  list-style: none;
+  padding-left: 0px;
+}
+.nav_it{
+  margin: 0 20px;
+}
+
+.nav_link{
+  text-decoration: none;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+
+  color: #555248;
+}
+
+.search_ul{
+  list-style: none;
+  display: flex;
+}
+
+.search_li{
+  margin: 0 15px;
+}
+
+.sub_container{
+  display: flex;
+  margin-bottom: 50px;
+}
+
+
+
+.bottom_spanline{
+  margin-right: 190px;
+}
+
+
+
+.bspheading{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 45px;
+  line-height: 60px;
+  color: #1B1A17;
+  margin-bottom: 5px;
+  margin-top: 0px;
+}
+
+
+.bsptittle{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 40px;
+  margin-top: 5px;
+  color: #1B1A17;
+}
+
+
+.bspp{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 21px;
+  width: 258px;
+  color: rgba(27, 26, 23, 0.82);
+  margin-bottom: 50px;
+}
+
+
+.bspl{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  padding: 20px 30px;
+  background: #444240;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
+.herot{
+  text-align: center;
+}
+
+.heroul{
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 150px;
+}
+
+.heroli{
+  background: #FDFDFB;
+  list-style: none;
+  margin: 0 30px;
+}
+
+
+
+.pod{
+  text-decoration: none;
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  color: #1B1A17;
+
+}
+
+.qwerty{
+  display: flex;
+  margin-bottom: 30px;
+}
+
+
+.reverse{
+  flex-direction: row-reverse;
+}
+
+
+.qualimg{
+  margin-right: 60px;
+}
+
+.quality{
+  padding-top: 60px ;
+  padding-right: 200px;
+}
+
+.qualtittle{
+  font-family: 'Playfair Display';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 43px;
+  color: #1B1A17;
+  margin-bottom: 30px;
+}
+
+
+.qualp{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #444240;
+  width: 360px;
+  margin-bottom: 130px;
+}
+
+.pag{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 80px;
+}
+
+
+.quallink{
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.05em;
+  color: #FFFFFF;
+  background: #D4B098;
+  padding: 25px;
+  text-decoration: none;
+
+}
+
+
+.qul-ul{
+  display: flex;
+  list-style: none;
+  padding-left: 0;
+}
+
+.qul-li{
+  margin: 0 10px;
+}
+
+footer{
+  background-color: #1B1A17;
+}
+.footer{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  align-items: center;
+}
+.logo{
+  margin-bottom:50px;
+}
+.element-ul{
+  padding-left: 5px;
+  list-style: none;
+}
+.link-gmail{
+  margin-top: 20px;
+}
+.tr{
+  margin: 0;
+  margin-top: 30px;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+
+  color: rgba(255, 255, 255, 0.75);
+
+}
+.navv{
+  margin-left: 190px;
+
+} 
+.footer-text{
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  
+  color: #FFFFFF;
+  
+} 
+.footer-element{
+  padding-left: 0px;
+  list-style: none;
+}
+
+.footer-link{
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 30px;
+  color: rgba(255, 255, 255, 0.75);
+  text-decoration: none;
+}
+
+
+
+
+
+
+
